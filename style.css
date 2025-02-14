@@ -257,4 +257,17 @@
     bottom: 10px; /* Ajuste desde la parte inferior */
     right: 10px; /* Ajuste desde la parte derecha */
   }
+@media (max-width: 600px) {
+    .cover, .letter {
+      border-left-width: 150px;
+      border-right-width: 150px;
+      border-top-width: 75px;
+      border-bottom-width: 75px;
+    }
+
+    .paper {
+      width: 290px;
+      height: 130px;
+    }
+  }
   
